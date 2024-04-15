@@ -21,7 +21,7 @@ num_visitors = 255
 
 # Function to generate a random IP address within a specified range
 def generate_random_ip():
-    return "42.107.{}.{}".format(random.randint(179, 183), random.randint(0, 255))
+    return "101.32.{}.{}".format(random.randint(80, 95), random.randint(0, 255))
 
 # Generate a list of unique IP addresses
 unique_ips = set()
